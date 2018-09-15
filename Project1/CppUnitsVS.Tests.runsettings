@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <RunConfiguration>
+        <MaxCpuCout>8</MaxCpuCout>
+        <ResultsDirectory>.\TestResults\CppUnitsVs_Tests</ResultsDirectory>
+        <TestSessionTimeout>6000</TestSessionTimeout>
+    </RunConfiguration>
+
+    <Catch2Adapter disabled="false">
+        <DebugBreak>on</DebugBreak>
+        <FilenameFilter>\.Tests\.cpp$</FilenameFilter>
+        <IncludeHidden>true</IncludeHidden>
+        <Logging>Verbose</Logging>
+        <MessageFormat>StatsOnly</MessageFormat>
+        <StackTraceFormat>ShortInfo</StackTraceFormat>
+        <TestCaseTimeout>20000</TestCaseTimeout>
+        <WorkingDirectory></WorkingDirectory>
+        <WorkingDirectoryRoot>Executable</WorkingDirectoryRoot>
+    </Catch2Adapter>
+</RunSettings>
